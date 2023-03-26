@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Apllication Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="content" id="abc">
+        <div>
+          <h1>Job Application <span>(Web)</span></h1>
+        </div>
+        <form action="">
+          <div class="form_container">
+            <div class="form-group">
+              <label for="fname">First Name: </label>
+              <input
+                type="text"
+                name="fname"
+                id="fname"
+                placeholder="Enter your first name..."
+              />
+            </div>
+            <div class="form-group">
+              <label for="lname">Last Name: </label>
+              <input
+                type="text"
+                name="lname"
+                id="lname"
+                placeholder="Enter your last name..."
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Email: </label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter your email..."
+              />
+            </div>
+            <div class="form-group">
+              <label for="jobTitle">Job Title: </label>
+              <select name="jobTitle" id="jobTitle">
+                <option value="">Select job title</option>
+                <option value="Front-end">Front-end developer</option>
+                <option value="Backend">Backend developer</option>
+                <option value="Database">Database Engineer</option>
+                <option value="Fullstack">Fullstack Developer</option>
+              </select>
+            </div>
+            <div class="textarea_control">
+              <label for="address">Address: </label>
+              <textarea
+                name="address"
+                id="address"
+                cols="30"
+                rows="4"
+                placeholder="Enter your address"
+              ></textarea>
+            </div>
+            <div class="form-group">
+              <label for="city">City: </label>
+              <input
+                type="text"
+                name="city"
+                id="city"
+                placeholder="Enter your city..."
+              />
+            </div>
+            <div class="form-group">
+              <label for="pin">Pincode: </label>
+              <input
+                type="number"
+                name="pin"
+                id="pin"
+                placeholder="Enter your pin..."
+              />
+            </div>
+            <div class="form-group">
+              <label for="date">Date: </label>
+              <input type="date" value="2023-02-02" name="date" id="date" />
+            </div>
+            <div class="form-group">
+              <label for="upload">Upload your CV: </label>
+              <input type="file" name="upload" id="upload" />
+            </div>
+            <DIV class="BUTTON_CONTAINER">
+              <button>Apply</button>
+            </DIV>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  </body>
+</html>
